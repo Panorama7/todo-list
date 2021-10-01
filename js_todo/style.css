@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body {
+  width: 100%;
+  background-color:cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteiner {
+  width: 1000px;
+  height: 600px;
+  background-color: blue;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  margin-top: 200px;
+}
+.taskConteiner {
+  width: 600px;
+  height: 200px;
+  overflow: auto;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 3em;
+  color: white;
+  margin-top: 100px;
+}
+input {
+  margin-top: 50px;
+  width: 500px;
+  height: 50px;
+}
+button {
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button {
+  height: 40px;
+  width: 70px;
+  background-color:yellowgreen;
+  color: white;
+}
+.completed {
+  height: 30px;
+  width: 70px;
+  margin: 0;
+}
+.newTask {
+  display: flex;
+  width: 600px;
+  height: 50px;
+}
+.taskText {
+  width: 500px;
+  height: 40px;
+  padding: 10px 0 0 0px;
+  color: white;
+  font-size: 25px;
+}
+.checked {
+  background-color: green;
+  width: 600px;
+}
